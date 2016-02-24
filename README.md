@@ -6,6 +6,6 @@ It's very simple to use and now allows you to populate it using either vanilla J
 
 # WTF Pathfinder
 
-Building on the work of others, I am toying around with my take of the WTFEngine to create a spin-off / rip-off of (Ryan Grant's)[https://twitter.com/ryanjgrant] (Who the fuck is my DND character?)[http://whothefuckismydndcharacter.com/] tailored to the Pathfinder system, creatively titled "Who the Fuck is my Pathfinder Character?".
+Building on the work of others, I am toying around with my take of the WTFEngine to create a spin-off / rip-off of [Ryan Grant's](https://twitter.com/ryanjgrant) [Who the fuck is my DND character?](http://whothefuckismydndcharacter.com/) tailored to the Pathfinder system, creatively titled "Who the Fuck is my Pathfinder Character?".
 
 In the mean time while I mess around and get this started, please visit the aformentioned WTF DND character generator or make your own WTF site using the WTFEngine.
