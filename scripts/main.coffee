@@ -338,8 +338,7 @@ generate = () ->
     for word in key_words_list
         template_list = template_list.replace('@'+word, data[word][Math.floor(Math.random() * data[word].length)])
 
-    # $('h1').text(header_string)
-    # $('#output').text(template_list.toUpperCase())
+    # $('#output').text(template_list)
     # $('#output').html(
     #     '<dl>' +
     #         '<dt>' + header_string + '</dt>' +

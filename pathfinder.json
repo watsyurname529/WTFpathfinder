@@ -291,7 +291,8 @@
         "a nomadic tribe wandering the plains",
         "a water-less lake",
         "a house made for a giant",
-        "a tower made only of iron"
+        "a tower made only of iron",
+        "a village with intelligent undead citizens"
     ],
 
     "Quirk": [
@@ -399,6 +400,12 @@
         "was the assistant to a failed necromancer",
         "was the apprentice of a mad alchemist",
         "is working on their next masterpiece",
-        "is searching for their muse"
+        "is searching for their muse",
+        "has long flowing locks of hair",
+        "has a beard",
+        "only uses explosion magic",
+        "is always wearing a hat",
+        "is fighting against the mistreatment of kobolds",
+        "is fighting against the mistreatment of goblins"
     ]
 }
