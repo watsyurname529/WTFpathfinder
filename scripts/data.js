@@ -1,8 +1,8 @@
-{
+var data = {
     "heading": [
         "I'm going to fucking roleplay a",
         "Check the stats on this, a fucking",
-        "Look at me, I'm going to be a fucking",
+        "Look at me, I'm going to be a",
         "My character is a fucking awesome"
     ],
 
@@ -42,7 +42,6 @@
         "Condescending",
         "Confident",
         "Courteous",
-        "Cunning",
         "Curt",
         "Cynical",
         "Dandy",
@@ -150,91 +149,35 @@
         "Verbose",
         "Vile",
         "Violent",
-        "Wary",
         "Wise",
         "Worried",
         "Young",
         "Xenophobic"
     ],
 
-    "Race": {
-        "Core": [
-            "Dwarf",
-            "Elf",
-            "Gnome",
-            "Half-Elf",
-            "Half-Orc",
-            "Halfling",
-            "Human"
-        ],
+    "Race": [
+        "Dwarf",
+        "Elf",
+        "Gnome",
+        "Half-Elf",
+        "Half-Orc",
+        "Halfling",
+        "Human"
+    ],
 
-        "ARG": [
-            "Aasimar",
-            "Catfolk",
-            "Dhampir",
-            "Drow",
-            "Fetchling",
-            "Goblin",
-            "Hobgoblin",
-            "Ifrit",
-            "Kobold",
-            "Orc",
-            "Oread",
-            "Ratfolk",
-            "Slyph",
-            "Tengu",
-            "Tiefling",
-            "Undine"
-        ]
-    },
-
-    "Class": {
-        "Core": [
-            "Barbarian",
-            "Bard",
-            "Cleric",
-            "Druid",
-            "Fighter",
-            "Monk",
-            "Paladin",
-            "Ranger",
-            "Rogue",
-            "Sorcerer",
-            "Wizard"
-        ],
-
-        "ACG": [
-            "Alchemist",
-            "Cavalier",
-            "Inquisitor",
-            "Summoner",
-            "Oracle",
-            "Witch"
-        ],
-
-        "APG": [
-            "Arcanist",
-            "Bloodrager",
-            "Brawler",
-            "Hunter",
-            "Investigator",
-            "Shaman",
-            "Skald",
-            "Slayer",
-            "Swashbuckler",
-            "Warpriest"
-        ],
-
-        "UC": [
-            "Gunslinger",
-            "Ninja",
-            "Samurai"
-        ],
-
-        "UM": [
-            "Magus"
-        ]
-    },
+    "Class": [
+        "Barbarian",
+        "Bard",
+        "Cleric",
+        "Druid",
+        "Fighter",
+        "Paladin",
+        "Monk",
+        "Ranger",
+        "Rogue",
+        "Sorcerer",
+        "Wizard"
+    ],
 
     "Place": [
         "a haunted house",
@@ -396,7 +339,7 @@
         "is part of the mafia",
         "is an incompetent bounty hunter",
         "has accidentally poisoned themself, twice",
-        "has too many good luck charms",
+        "has 18 good luck charms",
         "is afraid of their own reflection",
         "gets no respect as a villain",
         "is addicted to gambling",
@@ -418,7 +361,7 @@
         "is searching for their muse",
         "has long flowing locks of hair",
         "has a beard",
-        "only uses explosion (fire) magic",
+        "only uses explosion magic",
         "is always wearing a hat",
         "is fighting against the mistreatment of kobolds",
         "is fighting against the mistreatment of goblins",
@@ -446,4 +389,4 @@
         "made a deal with a demon",
         "made a deal with a devil"
     ]
-}
+};
