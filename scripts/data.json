@@ -254,7 +254,19 @@ var data = {
         "a log cabin in the woods",
         "a lonely inn along the road",
         "the magma forge deep under the city",
-        "a construct workshop"
+        "a construct workshop",
+        "their fifth town in three months",
+        "a ship lost at sea",
+        "an expedition to eldritch ruins",
+        "the inquisition",
+        "the nation's capital",
+        "the king's court",
+        "a quaint town on the prarie",
+        "the black market",
+        "the bustling city market",
+        "a huge international trade hub",
+        "the furthest town to the south",
+        "the city at the edge of the world"
     ],
 
     "Quirk": [
@@ -405,6 +417,28 @@ var data = {
         "always double checks for traps",
         "always has a 10ft pole on hand",
         "was exiled for high treason",
-        "was falsely accused of murder"
+        "was falsely accused of murder",
+        "has gotten away with murder",
+        "barely escaped capture by the city guard",
+        "keeps a hit list",
+        "always decapitates undead, just in case",
+        "has a battle plan of 'just wing it'",
+        "is missing their eyebrows from a spell misfire",
+        "listens at a door by breaking it down",
+        "thinks locked doors should be left alone",
+        "thinks an open door is an invitation",
+        "is in way too deep with the wrong people",
+        "once swindled an ogre out of its lair",
+        "searches for secret doors with a hammer",
+        "has a passion for gardening",
+        "is willing to try anything once",
+        "is just looking for a steady job",
+        "is an out of work bounty hunter",
+        "is an out of work guard",
+        "is wanted by the inquisition",
+        "is a dragon hunter",
+        "is a vampire hunter",
+        "constantly says they know a guy",
+        "never surrenders"
     ]
 };
