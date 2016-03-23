@@ -87,6 +87,7 @@
         "Jovial",
         "Judgmental",
         "Keen",
+        "Kindhearted",
         "Lazy",
         "Loud",
         "Loyal",
@@ -142,8 +143,12 @@
         "Surly",
         "Stand-offish",
         "Tall",
+        "Tidy",
         "Timid",
         "Tired",
+        "Touchy",
+        "Tricky",
+        "Trustyful",
         "Twitchy",
         "Ugly",
         "Uncoordinated",
@@ -151,10 +156,15 @@
         "Vile",
         "Violent",
         "Wary",
+        "Wicked",
         "Wise",
+        "Witty",
+        "Wordy",
         "Worried",
         "Young",
-        "Xenophobic"
+        "Xenophobic",
+        "Zealous",
+        "Zippy"
     ],
 
     "Race": {
@@ -323,7 +333,12 @@
         "the bustling city market",
         "a huge international trade hub",
         "the furthest town to the south",
-        "the city at the edge of the world"
+        "the city at the edge of the world",
+        "the slightly bad part of town",
+        "the winding city canals",
+        "an island fortress",
+        "a disgraced noble family",
+        "a disbanded unit of holy knights"
     ],
 
     "Quirk": [
@@ -350,7 +365,7 @@
         "must plan every battle as a war general",
         "has a peg leg due to an embarrassing incident",
         "is an ex street gang member",
-        "thinks they are haunted by a vengeful ghost, but does not know why",
+        "thinks they are haunted by a vengeful ghost",
         "is a kleptomaniac",
         "always must one-up the other party members",
         "can't hold their liquor",
@@ -375,7 +390,7 @@
         "must polish their weapon every night or get anxious",
         "apologizes to each one of their victims",
         "can't stand the sight of blood",
-        "is actually the demigod of wind, but does not believe it",
+        "is the demigod of wind, but does not believe it",
         "believes they are still in the war",
         "keeps having flashbacks to the war",
         "always has a song stuck in their head",
@@ -496,6 +511,22 @@
         "is a dragon hunter",
         "is a vampire hunter",
         "constantly says they know a guy",
-        "never surrenders"
+        "never surrenders",
+        "feels the need to write down everything",
+        "leaves their (arcane) mark everywhere",
+        "always uses their outside voice",
+        "treats every wound as life or death",
+        "wants to become a vampire",
+        "wants to become a lich",
+        "wants to become part construct",
+        "is creating an undead army",
+        "is creating a construct army",
+        "isn't evil, just misunderstood",
+        "constantly embellishes their achievents",
+        "always oversleeps",
+        "likes to impersonate guards",
+        "has an undead sibling",
+        "was kicked out of the church",
+        "relaxes by fishing"
     ]
 }
