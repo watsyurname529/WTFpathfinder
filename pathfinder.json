@@ -1,4 +1,4 @@
-{
+var data = {
     "heading": [
         "I'm going to fucking roleplay a",
         "Check the stats on this, a fucking",
@@ -7,6 +7,7 @@
     ],
 
     "response": [
+        "I don't fucking want that one",
         "Already fucking played one",
         "Give me a-fucking-nother one",
         "That's a fucking awful combination, try again",
@@ -74,6 +75,7 @@
         "Grouchy",
         "Gruff",
         "Grumpy",
+        "Gullible",
         "Happy",
         "Haughty",
         "Impatient",
@@ -116,6 +118,7 @@
         "Optimistic",
         "Quiet",
         "Racist",
+        "Rad",
         "Rebellious",
         "Reckless",
         "Relaxed",
@@ -338,7 +341,10 @@
         "the winding city canals",
         "an island fortress",
         "a disgraced noble family",
-        "a disbanded unit of holy knights"
+        "a disbanded unit of holy knights",
+        "a heavily trapped castle",
+        "the scarred lands",
+        "an unpronoucable place"
     ],
 
     "Quirk": [
@@ -527,6 +533,12 @@
         "likes to impersonate guards",
         "has an undead sibling",
         "was kicked out of the church",
-        "relaxes by fishing"
+        "relaxes by fishing",
+        "drinks away their problems",
+        "has anger management issues",
+        "never asks for help",
+        "believes they have supernatural luck",
+        "always has holy water, just in case",
+        "like to trick people"
     ]
 }

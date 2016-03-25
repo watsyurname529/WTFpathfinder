@@ -1,0 +1,119 @@
+var data = {
+    "heading": [
+        "Check the stats on this, a fucking",
+        "Look how fucking shiny this is, it's a",
+        "Check how my character's fucking",
+        "I just bought a fucking"
+    ],
+
+    "response": [
+        "Sell that fucking thing and get a new one",
+        "That's a fucking awful combination, try again",
+        "I don't fucking want that one",
+        "Already fucking have one"
+    ],
+
+    "template": [
+        "@Adj @Bonus @Enhance @Item that @Quirk"
+    ],
+
+    "Adj": [
+        "Glowing",
+        "Heavy",
+        "New",
+        "Old",
+        "Scratched",
+        "Shiny",
+        "Silver"
+    ],
+
+    "Bonus": [
+        "+1",
+        "+2",
+        "+3",
+        "+4",
+        "+5"
+    ],
+
+    "Enhance": {
+        "Weapon": [
+            "Corrosive",
+            "Defending",
+            "Flaming",
+            "Frost",
+            "Furious",
+            "Ghost touch",
+            "Grayflame",
+            "Keen",
+            "Menacing",
+            "Merciful",
+            "Shock",
+            "Sonic",
+            "Throwing",
+            "Thundering",
+            "Vicious"
+        ]
+    },
+
+    "Item": {
+        "Weapon": [
+            "Battleaxe",
+            "Blowgun",
+            "Club",
+            "Cutlass",
+            "Dagger",
+            "Falchion",
+            "Flail",
+            "Glaive",
+            "Greataxe",
+            "Greatclub",
+            "Greatsword",
+            "Halberd",
+            "Handaxe",
+            "Heavy Crossbow",
+            "Heavy Flail",
+            "Heavy Mace",
+            "Kukri",
+            "Lance",
+            "Light Crossbow",
+            "Light Mace",
+            "Longbow",
+            "Longspear",
+            "Longsword",
+            "Machete",
+            "Morning Star",
+            "Quarterstaff",
+            "Ranseur",
+            "Rapier",
+            "Scimitar",
+            "Scythe",
+            "Shortbow",
+            "Shortspear",
+            "Shortsword",
+            "Sickle",
+            "Sling",
+            "Spear",
+            "Throwing Axe",
+            "Trident",
+            "Warhammer"
+        ]
+    },
+
+    "Quirk": [
+        "smells faintly of the sea",
+        "is inscribed with the rune for death",
+        "is cold to the touch",
+        "is warm to the touch",
+        "is made of mithril",
+        "is made of silver",
+        "is made of adamantine",
+        "is made of cold iron",
+        "is set with a dozen rubies",
+        "constantly drips blood",
+        "is always clean",
+        "smells of brimstone",
+        "sparks when struck",
+        "has light dancing about the grip",
+        "contains a glittering emerald"
+    ]
+}

@@ -74,6 +74,7 @@ var data = {
         "Grouchy",
         "Gruff",
         "Grumpy",
+        "Gullible",
         "Happy",
         "Haughty",
         "Impatient",
@@ -116,6 +117,7 @@ var data = {
         "Optimistic",
         "Quiet",
         "Racist",
+        "Rad",
         "Rebellious",
         "Reckless",
         "Relaxed",
@@ -284,6 +286,8 @@ var data = {
         "an island fortress",
         "a disgraced noble family",
         "a disbanded unit of holy knights"
+        "the scarred lands",
+        "an unpronoucable place"
     ],
 
     "Quirk": [
@@ -472,6 +476,12 @@ var data = {
         "likes to impersonate guards",
         "has an undead sibling",
         "was kicked out of the church",
-        "relaxes by fishing"
+        "relaxes by fishing",
+        "drinks away their problems",
+        "has anger management issues",
+        "never asks for help",
+        "believes they have supernatural luck",
+        "always has holy water, just in case",
+        "like to trick people"
     ]
 };
