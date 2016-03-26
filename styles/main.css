@@ -11,11 +11,9 @@ header {
 }
 
 #wrapper {
-	width: 40%;
-	margin: auto;
+    width: 40%;
+    margin: auto;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 48px;
 }
 
 #output{
