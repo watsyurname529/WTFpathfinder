@@ -372,7 +372,14 @@ var data = {
         "a maximum security prison",
         "a minimum security prison",
         "a broom closet",
-        "an abandoned wine celler"
+        "an abandoned wine celler",
+        "the scintillating caverns",
+        "the fireswamp",
+        "the cliffs of insanity",
+        "the pit of despair",
+        "a seculded forest glen",
+        "a babbling brook in a tiny forest",
+        "a patchwork tent"
     ],
 
     "Quirk": [
@@ -579,6 +586,24 @@ var data = {
         "has eleven toes",
         "has to eat all the food they're given",
         "is a part time cartographer",
-        "is a part time potions salesman"
+        "is a part time potions salesman",
+        "is doing this just to impress a girl",
+        "is doing this just to impress a guy",
+        "claims they are the king of the sea",
+        "has six fingers on their right hand",
+        "is seeking vengence for their murdered father",
+        "is seeking vengence for their murdered mother",
+        "has only nine fingers left",
+        "prefers to leave no evidence",
+        "always accepts a quest",
+        "never skips breakfast",
+        "is easily surprised",
+        "settles arguments with a dance off",
+        "keeps a spare glove to slap with",
+        "is wanted for a reward (Dead or Alive)",
+        "loves nature more than people",
+        "is trying to prevent forest fires",
+        "was involved in a infamous heist",
+        "believes trees speak to them, and only them"
     ]
 }
