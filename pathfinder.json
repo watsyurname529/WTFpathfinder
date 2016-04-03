@@ -279,7 +279,7 @@ var data = {
         "a traveling circus of Halflings",
         "a tree house village in the sacred forest",
         "an underground monastery",
-        "an underwater city surrounded by a magic air bubble",
+        "an underwater city in a magic air bubble",
         "the depths of hell (the town nickname)",
         "neither here nor there",
         "a hole in the ground",
@@ -361,6 +361,7 @@ var data = {
         "the furthest town to the south",
         "the city at the edge of the world",
         "the slightly bad part of town",
+        "the rich part of town",
         "the winding city canals",
         "an island fortress",
         "a disgraced noble family",
@@ -377,9 +378,15 @@ var data = {
         "the fireswamp",
         "the cliffs of insanity",
         "the pit of despair",
-        "a seculded forest glen",
+        "a secluded forest glen",
         "a babbling brook in a tiny forest",
-        "a patchwork tent"
+        "a patchwork tent",
+        "the flooded city ruins",
+        "Red Rocks Cavern",
+        "an army encampment",
+        "a grand cathedral",
+        "the local thieves guild",
+        "a group of con artists"
     ],
 
     "Quirk": [
@@ -604,6 +611,18 @@ var data = {
         "loves nature more than people",
         "is trying to prevent forest fires",
         "was involved in a infamous heist",
-        "believes trees speak to them, and only them"
+        "believes trees speak to them, and only them",
+        "is trying to relive their glory days",
+        "likes to interrupt monologues",
+        "only uses 'simple' words",
+        "is constantly in disguise",
+        "is easily confused",
+        "tries to be optimistic about everything",
+        "is pessimistic about everything",
+        "is a con artist",
+        "is the last member of their religion",
+        "is a connoisseur of the finest wines",
+        "always has a Plan B of RUN",
+        "is here because of a failed teleport"
     ]
 }
