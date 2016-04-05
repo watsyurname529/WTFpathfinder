@@ -113,7 +113,12 @@ var data = {
         "is always clean",
         "smells of brimstone",
         "sparks when struck",
-        "has light dancing about the grip",
-        "contains a glittering emerald"
+        "has lights dancing about the grip",
+        "contains a glittering emerald",
+        "whispers complement to the wielder",
+        "whispers insults to the wielder",
+        "was forged from a meteorite",
+        "was used to slay a king",
+        "was used to slay a vampire lord"
     ]
 }
