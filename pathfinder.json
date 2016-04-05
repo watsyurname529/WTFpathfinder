@@ -163,7 +163,6 @@ var data = {
         "Strict",
         "Strong",
         "Stoic",
-        "Stupid",
         "Sullen",
         "Surly",
         "Stand-offish",
@@ -386,7 +385,12 @@ var data = {
         "an army encampment",
         "a grand cathedral",
         "the local thieves guild",
-        "a group of con artists"
+        "a group of con artists",
+        "a town in the middle of a lake",
+        "a city on its sixth rebuild",
+        "a city carved out of stone",
+        "a fallen kingdom",
+        "a smuggler's town"
     ],
 
     "Quirk": [
@@ -467,6 +471,7 @@ var data = {
         "involved in the coup of a kingdom",
         "is wanted for crimes against druids",
         "is wanted for crimes against gnomes",
+        "is wanted for crimes against elves",
         "has a passion for cooking",
         "thinks they're fulfilling a prophecy",
         "can't remember anyone's name",
@@ -478,6 +483,7 @@ var data = {
         "has too many good luck charms",
         "is afraid of their own reflection",
         "gets no respect as a villain",
+        "gets no respect as a hero",
         "is addicted to gambling",
         "on the run from having an affair with a princess",
         "is a caravan robber",
@@ -534,7 +540,7 @@ var data = {
         "always wears a cloak",
         "carries a loaded crossbow, just in case",
         "never checks for traps",
-        "always double checks for traps",
+        "always triple checks for traps",
         "always has a 10ft pole on hand",
         "was exiled for high treason",
         "was falsely accused of murder",
@@ -623,6 +629,17 @@ var data = {
         "is the last member of their religion",
         "is a connoisseur of the finest wines",
         "always has a Plan B of RUN",
-        "is here because of a failed teleport"
+        "is here because of a failed teleport",
+        "thinks they are trapped in a dream",
+        "responds to insults with a duel",
+        "does not believe that dieties exist",
+        "is cursed with a year left to live",
+        "has allergies that kick in at the worst times",
+        "has been accused but never convicted of any crime",
+        "constantly needs their fix",
+        "has an arch-nemisis",
+        "likes to solve problems with fire",
+        "was rejected from every academy they applied to",
+        "believes everything is worth overdoing"
     ]
 }
