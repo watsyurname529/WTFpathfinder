@@ -53,4 +53,11 @@
     font-size: 24px;
 
     display: inline-block;
+    cursor: pointer;
+}
+
+.checkbox {
+    color: #0000FF;
+    background-color: #0000FF;
+    font-size: 24px;
 }

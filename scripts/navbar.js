@@ -7,3 +7,7 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+function onCheck() {
+    // document.getElementById("first-button").style.color = "#FF0000";
+}
