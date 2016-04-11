@@ -268,6 +268,10 @@ var data = {
 
         "UM": [
             "Magus"
+        ],
+
+        "UI": [
+            "Vigilante"
         ]
     },
 
@@ -279,7 +283,7 @@ var data = {
         "a tree house village in the sacred forest",
         "an underground monastery",
         "an underwater city in a magic air bubble",
-        "the depths of hell (the town nickname)",
+        "the depths of hell (the town name)",
         "neither here nor there",
         "a hole in the ground",
         "the academy for orphaned adventurers",
@@ -390,7 +394,9 @@ var data = {
         "a city on its sixth rebuild",
         "a city carved out of stone",
         "a fallen kingdom",
-        "a smuggler's town"
+        "a smuggler's town",
+        "the city gazette",
+        "the city tax office"
     ],
 
     "Quirk": [
@@ -640,6 +646,12 @@ var data = {
         "has an arch-nemisis",
         "likes to solve problems with fire",
         "was rejected from every academy they applied to",
-        "believes everything is worth overdoing"
+        "believes everything is worth overdoing",
+        "is a reporter for the city newspaper",
+        "is completely indecisive",
+        "perfers to use words as their weapons",
+        "is an active conspiracy theorist",
+        "is convinced they have visions of the future",
+        "is always polite about their kills"
     ]
 }

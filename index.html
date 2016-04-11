@@ -15,18 +15,25 @@
 	</head>
 	<body>
 		<div id="mySidenav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeNav()">&times;</a>
 			<a href="#">About</a>
-			<a href="#">Services</a>
-			<a href="#">Clients</a>
-			<a href="#">Contact</a>
-			
-			<input type="checkbox" id="first-button" class="checkbox" onclick="onCheck()"><label for="first-button">Click!</label>
+			<a href="#">Generate</a>
+
+			<!-- <input type="checkbox" id="first-button" class="checkbox" onclick="onCheck()"><label for="first-button">Click!</label> -->
+
+			<dl>
+				<dt>Settings</dt>
+				<dt>Races</dt>
+				<dd><input id="box1" type="checkbox"><label class="checkbox" for="box1"> Core </label></dd>
+				<dd><input id="box2" type="checkbox"><label class="checkbox" for="box2"> ARG </label></dd>
+				<dt>Classes</dt>
+				<dd><input id="box3" type="checkbox"><label class="checkbox" for="box3"> Core </label></dd>
+				<dd><input id="box4" type="checkbox"><label class="checkbox" for="box4"> ACG </label></dd>
+				<dd><input id="box5" type="checkbox"><label class="checkbox" for="box5"> APG </label></dd>
+			</dl>
 		</div>
 
-		<!-- <span id="navbutton" onclick="openNav()"><i class="material-icons md-48">menu</i></span> -->
 		<i id="navicon" onclick="openNav()" class="material-icons">menu</i>
-
 		<div id="wrapper">
 		    <header>
 		        <h1>Who The Fuck Is&hellip; My Pathfinder Character?!</h1>
@@ -52,6 +59,6 @@
 	</body>
 	<!-- <script src="scripts/data.json"></script> -->
 	<script src="pathfinder.json"></script>
-	<!-- <script src="scripts/main.js"></script> -->
+	<script src="scripts/main.js"></script>
 	<script src="scripts/navbar.js"></script>
 </html>
