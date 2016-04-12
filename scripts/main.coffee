@@ -1,16 +1,32 @@
-build_list = (base_list) ->
+build_config = (base_list) ->
+    config_obj = {}
+
+    for base_key, base_value of base_list
+        if base_value.constructor is Object
+            temp_obj = {}
+            for sub_key, sub_value of base_value
+                temp_obj[sub_key] = true
+            config_obj[base_key] = temp_obj
+    # console.log(config_obj)
+    return config_obj
+
+build_list = (base_list, config_list) ->
     active_list = {}
 
     for base_key, base_value of base_list
-        if base_value instanceof Object is true
+        if base_value.constructor is Object
             temp_list = []
-            for subkey, subvalue of base_value
-                temp_list = temp_list.concat subvalue
+            for sub_key, sub_value of base_value
+                if config_list[base_key][sub_key] is true
+                    temp_list = temp_list.concat sub_value
             active_list[base_key] = temp_list
-        else if base_value instanceof Array is true
+            # console.log("Object Found.")
+        else if base_value.constructor is Array
             active_list[base_key] = base_value
+            # console.log("Array Found.")
         else
             console.log("Invalid structure. Needs to be an Array or Object (Dictionary)")
+    console.log(config_list)
     return active_list
 
 showOutput = ->
@@ -33,15 +49,6 @@ generate = (active_list) ->
     for word in key_words_list
         template_list = template_list.replace('@'+word, active_list[word][Math.floor(Math.random() * active_list[word].length)])
 
-    # $('#output').text(template_list)
-    # $('#output').html(
-    #     '<dl>' +
-    #         '<dt>' + header_string + '</dt>' +
-    #         '<dd>' + template_list + '</dd>' +
-    #     '</dl>'
-    # )
-
-    # $('#output').fadeOut(0)
     setTimeout(showOutput, 50)
 
     $('#output').html(
@@ -51,10 +58,13 @@ generate = (active_list) ->
     $('#generate').text(generate_string)
 
     hideOutput()
-    # $('#output').fadeIn("slow")
     return false
 
-data_list = build_list(data)
+config_list = build_config(data)
+data_list = build_list(data, config_list)
 generate(data_list)
-$('#generate').click ->
-    generate(data_list)
+
+window.data_list = data_list
+$('#generate').on "click", ->
+    # data_list = build_list(data, config_list)
+    generate(window.data_list)

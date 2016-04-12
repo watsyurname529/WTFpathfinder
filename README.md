@@ -1,6 +1,6 @@
 # WTF Pathfinder
 
-Inspired by [Ryan Grant's](https://twitter.com/ryanjgrant) [Who the fuck is my DND character?](http://whothefuckismydndcharacter.com/), I decided to create a spin-off tailored to teh Pathfinder system, creatively titled "Who the Fuck is my Pathfinder Character?!".
+Inspired by [Ryan Grant's](https://twitter.com/ryanjgrant) [Who the fuck is my DND character?](http://whothefuckismydndcharacter.com/), I decided to create a spin-off tailored to the Pathfinder system, creatively titled "Who the Fuck is my Pathfinder Character?!".
 
 The core functionality is the same, but with expanded race and class lists from the Pathfinder game setting. I also tried my best to create generation lists that were as unique as possible from WTFDND, but there are a few that I ended up copying and some that are very similar due to the nature of the ideas. So please check out both generators for maximum combinations and ideas.
 
