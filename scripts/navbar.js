@@ -25,20 +25,13 @@ $('#generate-nav').on("click", function() {
   return generate(data_list);
 });
 
-$('#box1').on("click", function() {
-  if ($('#box1').is(':checked')) {
-    config_list['Race']['Core'] = true;
+$('.box').on("click", function(event) {
+  var parent_id;
+  parent_id = $(this).closest('dl').attr('id');
+  if ($(this).is(':checked')) {
+    config_list[parent_id][event.target.id] = true;
   } else {
-    config_list['Race']['Core'] = false;
-  }
-  return window.data_list = build_list(data, config_list);
-});
-
-$('#box2').on("click", function() {
-  if ($('#box2').is(':checked')) {
-    config_list['Race']['ARG'] = true;
-  } else {
-    config_list['Race']['ARG'] = false;
+    config_list[parent_id][event.target.id] = false;
   }
   return window.data_list = build_list(data, config_list);
 });

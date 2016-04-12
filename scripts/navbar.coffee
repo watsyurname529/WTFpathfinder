@@ -1,14 +1,8 @@
-# #Set the width of the side navigation to 250px
-# openNav = ->
-#     document.getElementById("mySidenav").style.width = "250px";
-#
-# #Set the width of the side navigation to 0
-# closeNav = ->
-#     document.getElementById("mySidenav").style.width = "0";
-
+#Set the width of the side navigation to 250px
 $('#navicon').on "click", ->
     $('#mySidenav').css('width', '250px')
 
+#Set the width of the side navigation to 0
 $('#closebtn').on "click", ->
     $('#mySidenav').css('width', '0px')
 
@@ -39,16 +33,12 @@ $('#suggestion-nav').on "click", ->
 $('#generate-nav').on "click", ->
     generate(data_list)
 
-$('#box1').on "click", ->
-    if $('#box1').is(':checked')
-        config_list['Race']['Core'] = true
+$('.box').on "click", (event) ->
+    parent_id = $(this).closest('dl').attr('id')
+    if $(this).is(':checked')
+        config_list[parent_id][event.target.id] = true
     else
-        config_list['Race']['Core'] = false
+        config_list[parent_id][event.target.id] = false
     window.data_list = build_list(data, config_list)
-
-$('#box2').on "click", ->
-    if $('#box2').is(':checked')
-        config_list['Race']['ARG'] = true
-    else
-        config_list['Race']['ARG'] = false
-    window.data_list = build_list(data, config_list)
+    # console.log($(this).closest('dl').attr('id'))
+    # console.log(event.target.id)

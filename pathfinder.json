@@ -172,7 +172,7 @@ var data = {
         "Tired",
         "Touchy",
         "Tricky",
-        "Trustyful",
+        "Trustful",
         "Twitchy",
         "Ugly",
         "Uncoordinated",
@@ -193,7 +193,7 @@ var data = {
     ],
 
     "Race": {
-        "Core": [
+        "Core-Race": [
             "Dwarf",
             "Elf",
             "Gnome",
@@ -224,7 +224,7 @@ var data = {
     },
 
     "Class": {
-        "Core": [
+        "Core-Class": [
             "Barbarian",
             "Bard",
             "Cleric",

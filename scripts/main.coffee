@@ -10,6 +10,17 @@ build_config = (base_list) ->
     # console.log(config_obj)
     return config_obj
 
+build_checkbox = (config_list) ->
+    html_string = '<dl><dt>Settings</dt></dl>'
+    for base_key, base_value of config_list
+        html_string = html_string + '<dl id="entry"><dt>entry</dt>'.replace /entry/g, base_key
+        for sub_key, sub_value of base_value
+            html_string = html_string + '<dd><input id="entry" class="box" type="checkbox" checked="checked">' +
+                          '<label class="checkbox" for="entry"> entry </label></dd>'.replace /entry/g, sub_key
+        html_string = html_string + '</dl>'
+    # console.log(html_string)
+    $('#settings').html(html_string)
+
 build_list = (base_list, config_list) ->
     active_list = {}
 
@@ -62,6 +73,7 @@ generate = (active_list) ->
 
 config_list = build_config(data)
 data_list = build_list(data, config_list)
+build_checkbox(config_list)
 generate(data_list)
 
 window.data_list = data_list
