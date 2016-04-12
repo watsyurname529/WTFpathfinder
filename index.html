@@ -6,12 +6,25 @@
 		<meta name="copyright" content="Copyright ABC 2016. All Rights Reserved." />
 		<meta name="author" content="ABC" />
 		<link rel="stylesheet" href="styles/main.css"/>
-		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
-		<!-- <script>window.jQuery || document.write('<script src="scripts/vendor/jquery-1.12.1.min.js"><\/script>')</script> -->
-		<script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.1.2/zepto.min.js"></script>
-		<script>window.Zepto || document.write('<script src="scripts/vendor/zepto.min.js"><\/script>')</script>
+		<link rel="stylesheet" href="styles/navbar.css"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="scripts/vendor/jquery-1.12.1.min.js"><\/script>')</script>
+		<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.1.2/zepto.min.js"></script>
+		<script>window.Zepto || document.write('<script src="scripts/vendor/zepto.min.js"><\/script>')</script> -->
 	</head>
 	<body>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" id="closebtn" class="closebtn">&times;</a>
+			<a href="#" id="about-nav">About</a>
+			<a href="#" id="generate-nav">Generate</a>
+			<a href="#" id="suggestion-nav">Suggestions</a>
+
+			<div id="settings">
+			</div>
+		</div>
+
+		<i id="navicon" class="material-icons">menu</i>
 		<div id="wrapper">
 		    <header>
 		        <h1>Who The Fuck Is&hellip; My Pathfinder Character?!</h1>
@@ -38,4 +51,5 @@
 	<!-- <script src="scripts/data.json"></script> -->
 	<script src="pathfinder.json"></script>
 	<script src="scripts/main.js"></script>
+	<script src="scripts/navbar.js"></script>
 </html>

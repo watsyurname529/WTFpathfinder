@@ -25,11 +25,11 @@ header {
 }
 
 #output.animate {
-    -webkit-transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -ms-transition: opacity 0.5s ease-in-out;
-    -o-transition: opacity 0.5s ease-in-out;
-    -transition: opacity 0.5s ease-in-out;
+  	-webkit-transition: opacity 0.4s ease-in-out;
+  	-moz-transition: opacity 0.4s ease-in-out;
+  	-ms-transition: opacity 0.4s ease-in-out;
+  	-o-transition: opacity 0.4s ease-in-out;
+  	-transition: opacity 0.4s ease-in-out;
 }
 
 #generate{
@@ -46,19 +46,33 @@ header {
 footer {
     text-transform: none;
     position: absolute;
-    text-align: right;
-    line-height: 16px;
-    font-size: 12px;
+	text-align: right;
+	line-height: 16px;
+	font-size: 12px;
     margin: 12px 24px;
-    bottom: 0;
-    right: 0;
+	bottom: 0;
+	right: 0;
 }
 
 footer a {
+	text-decoration: none;
+	color: #0000FF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.about {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.about a {
     text-decoration: none;
     color: #0000FF;
 }
 
-footer a:hover {
+.about a:hover {
     text-decoration: underline;
 }

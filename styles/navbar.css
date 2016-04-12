@@ -1,0 +1,100 @@
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.4s; /* 0.4 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 0px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav dl {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav dt {
+    padding-top: 8px;
+}
+
+.sidenav dd {
+    position: relative;
+    left: -16px;
+}
+
+#settings {
+    margin-top: 24px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+#navicon {
+    color: #000000;
+    background-color: #EEEEEE;
+    font-size: 24px;
+
+    display: inline-block;
+    cursor: pointer;
+}
+
+.checkbox {
+    display: inline-block;
+    cursor: pointer;
+    color: #818181;
+    font-size: 14px; margin-right:10px; line-height:16px;
+}
+
+input[type=checkbox] {
+    display:none;
+}
+
+.checkbox:before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align:middle;
+    background-color: #818181;
+    color: #f6f6f6;
+    text-align: center;
+    /*box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);*/
+    border-radius: 3px;
+    margin-right: 3px;
+}
+
+input[type=checkbox]:checked + .checkbox:before {
+    content: "\2713";
+    /*text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);*/
+    font-size: 18px;
+}
