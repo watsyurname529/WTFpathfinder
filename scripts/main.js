@@ -26,7 +26,7 @@ build_checkbox = function(config_list) {
     html_string = html_string + '<dl id="entry"><dt>entry</dt>'.replace(/entry/g, base_key);
     for (sub_key in base_value) {
       sub_value = base_value[sub_key];
-      html_string = html_string + '<dd><input id="entry" class="box" type="checkbox" checked="checked">' + '<label class="checkbox" for="entry"> entry </label></dd>'.replace(/entry/g, sub_key);
+      html_string = html_string + '<dd><input id="entry" class="box" type="checkbox" checked="checked"><label class="checkbox" for="entry"> entry </label></dd>'.replace(/entry/g, sub_key);
     }
     html_string = html_string + '</dl>';
   }
