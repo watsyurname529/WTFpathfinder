@@ -12,6 +12,7 @@ header {
 
 #wrapper {
     width: 40%;
+    min-width: 700px;
     margin: auto;
     font-weight: 700;
 }

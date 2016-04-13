@@ -203,7 +203,7 @@ var data = {
             "Human"
         ],
 
-        "ARG": [
+        "Adv. Race Guide": [
             "Aasimar",
             "Catfolk",
             "Dhampir",
@@ -238,7 +238,7 @@ var data = {
             "Wizard"
         ],
 
-        "ACG": [
+        "Adv. Class Guide": [
             "Alchemist",
             "Cavalier",
             "Inquisitor",
@@ -247,7 +247,7 @@ var data = {
             "Witch"
         ],
 
-        "APG": [
+        "Adv. Player Guide": [
             "Arcanist",
             "Bloodrager",
             "Brawler",
@@ -260,17 +260,17 @@ var data = {
             "Warpriest"
         ],
 
-        "UC": [
+        "Ult. Combat": [
             "Gunslinger",
             "Ninja",
             "Samurai"
         ],
 
-        "UM": [
+        "Ult. Magic": [
             "Magus"
         ],
 
-        "UI": [
+        "Ult Intrigue": [
             "Vigilante"
         ]
     },
@@ -652,6 +652,7 @@ var data = {
         "perfers to use words as their weapons",
         "is an active conspiracy theorist",
         "is convinced they have visions of the future",
-        "is always polite about their kills"
+        "is always polite about their kills",
+        "wears a mask to disguise their true identity"
     ]
 }
