@@ -30,10 +30,8 @@ build_list = (base_list, config_list) ->
                 if config_list[base_key][sub_key] is true
                     temp_list = temp_list.concat sub_value
             active_list[base_key] = temp_list
-            # console.log("Object Found.")
         else if base_value.constructor is Array
             active_list[base_key] = base_value
-            # console.log("Array Found.")
         else
             console.log("Invalid structure. Needs to be an Array or Object (Dictionary)")
     console.log(config_list)
@@ -72,10 +70,10 @@ generate = (active_list) ->
 
 config_list = build_config(data)
 data_list = build_list(data, config_list)
+
 build_checkbox(config_list)
 generate(data_list)
 
 window.data_list = data_list
 $('#generate').on "click", ->
-    # data_list = build_list(data, config_list)
     generate(window.data_list)

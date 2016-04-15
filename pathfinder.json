@@ -203,7 +203,7 @@ var data = {
             "Human"
         ],
 
-        "ARG": [
+        "Adv. Race Guide": [
             "Aasimar",
             "Catfolk",
             "Dhampir",
@@ -238,7 +238,7 @@ var data = {
             "Wizard"
         ],
 
-        "ACG": [
+        "Adv. Class Guide": [
             "Alchemist",
             "Cavalier",
             "Inquisitor",
@@ -247,7 +247,7 @@ var data = {
             "Witch"
         ],
 
-        "APG": [
+        "Adv. Player Guide": [
             "Arcanist",
             "Bloodrager",
             "Brawler",
@@ -260,18 +260,27 @@ var data = {
             "Warpriest"
         ],
 
-        "UC": [
+        "Ult. Combat": [
             "Gunslinger",
             "Ninja",
             "Samurai"
         ],
 
-        "UM": [
+        "Ult. Magic": [
             "Magus"
         ],
 
-        "UI": [
+        "Ult. Intrigue": [
             "Vigilante"
+        ],
+
+        "Occult": [
+            "Kineticist",
+            "Medium",
+            "Mesmerist",
+            "Occultist",
+            "Psychic",
+            "Spiritualist"
         ]
     },
 
@@ -396,7 +405,12 @@ var data = {
         "a fallen kingdom",
         "a smuggler's town",
         "the city gazette",
-        "the city tax office"
+        "the city tax office",
+        "a barbarian tribe",
+        "a pious village",
+        "the city navy",
+        "the bustling docks",
+        "a chain of pirate islands"
     ],
 
     "Quirk": [
@@ -411,7 +425,7 @@ var data = {
         "was once buried alive",
         "has a best friend that is an intelligent undead",
         "constantly argues with their conscience",
-        "always celebrates the end of a fight with a beer",
+        "always celebrates the end of combat with beer",
         "is afraid of pointy objects",
         "has a bad case of the blues",
         "is a loose cannon cop",
@@ -652,6 +666,19 @@ var data = {
         "perfers to use words as their weapons",
         "is an active conspiracy theorist",
         "is convinced they have visions of the future",
-        "is always polite about their kills"
+        "is always polite about their kills",
+        "wears a mask to disguise their true identity",
+        "hates being interrupted",
+        "wants to become a Lycanthrope",
+        "is searching for a lost family heirloom",
+        "tries to prepare for everything",
+        "thinks traps are specifically meant for them",
+        "once fell overboard on a ship",
+        "was forced to walk the plank",
+        "is a reformed pirate",
+        "is a reformed bandit",
+        "is a reformed necromancer",
+        "is looking for a better paying job",
+        "is using the party as cover for other activities"
     ]
 }
