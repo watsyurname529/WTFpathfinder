@@ -410,7 +410,11 @@ var data = {
         "a pious village",
         "the city navy",
         "the bustling docks",
-        "a chain of pirate islands"
+        "a chain of pirate islands",
+        "the coluseum",
+        "a noble fencing school",
+        "the city eldritch museum",
+        "a completely normal upbringing"
     ],
 
     "Quirk": [
@@ -679,6 +683,17 @@ var data = {
         "is a reformed bandit",
         "is a reformed necromancer",
         "is looking for a better paying job",
-        "is using the party as cover for other activities"
+        "is using the party as cover for other activities",
+        "never gets rid of anything",
+        "wants to map the entire world",
+        "offers investigation services",
+        "never remembers a face",
+        "never remembers a name",
+        "is available for hire to do dirty deeds",
+        "is trying to find a cure for aging",
+        "was banished from the city",
+        "is on a mission from their god",
+        "thinks all spellcasters are 'witches'",
+        "was once entirely frozen in ice"
     ]
 }
