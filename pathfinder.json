@@ -148,6 +148,7 @@ var data = {
         "Rude",
         "Sarcastic",
         "Sassy",
+        "Scholarly",
         "Selfless",
         "Sexist",
         "Shifty",
@@ -414,7 +415,8 @@ var data = {
         "the coluseum",
         "a noble fencing school",
         "the city eldritch museum",
-        "a completely normal upbringing"
+        "a completely normal upbringing",
+        "a sandy beach"
     ],
 
     "Quirk": [
@@ -694,6 +696,12 @@ var data = {
         "was banished from the city",
         "is on a mission from their god",
         "thinks all spellcasters are 'witches'",
-        "was once entirely frozen in ice"
+        "was once entirely frozen in ice",
+        "thinks they're an orc in a different body",
+        "is cursed to only ask questions",
+        "is convinced that they're dreaming",
+        "thinks everyone is trying to rip them off",
+        "thinks light weapons are pointless",
+        "thinks ranged combat is for wimps"
     ]
 }
